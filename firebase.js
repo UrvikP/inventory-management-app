@@ -1,7 +1,8 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
+import {GOOGLE_API} from './.env.local';
 const firebaseConfig = {
- apiKey: "AIzaSyCUbrJR7I-RQpCNbvIDGwXKk7zdy0gZmz0",
+ apiKey: GOOGLE_API,
  authDomain: "inventory-management-app-846ff.firebaseapp.com",
  projectId: "inventory-management-app-846ff",
  storageBucket: "inventory-management-app-846ff.appspot.com",
