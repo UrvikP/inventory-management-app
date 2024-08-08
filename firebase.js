@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 import { getFirestore } from 'firebase/firestore';
-import {GOOGLE_API} from './.env.local';
+import {GOOGLE_API} from './.env';
 const firebaseConfig = {
  apiKey: GOOGLE_API,
  authDomain: "inventory-management-app-846ff.firebaseapp.com",
